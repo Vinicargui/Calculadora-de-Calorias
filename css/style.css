@@ -1,0 +1,83 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(253, 246, 246);
+  
+}
+
+#elementos{
+    width: 100%;
+    max-width: 500px;
+    height: 550px;
+    background-color: #000000ad;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+ #legenda{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.tecla{
+    width:120px;
+    height: 120px;
+    background-color: rgb(111, 0, 255);
+    border-radius: 30px;
+    box-shadow: 3px 3px 0 ;
+    margin: 5px;
+
+
+}
+
+.teclado{
+ display: grid;
+ grid-template-columns: repeat(3,1fr); 
+ align-items: center;
+
+}
+
+
+
+input{
+    box-sizing: border-box;
+    display: block;
+    width: 90%;
+    height: 40px;
+    padding: 20px;
+    
+    
+   
+}
+h1{
+  color: aliceblue;
+}
+
+.tecla_carnes{
+    background-color: rgb(220, 134, 134);
+}
+
+.tecla_cereais{
+    background-color: rgb(226, 228, 186);
+}
+
+.tecla_fast-food{
+    background-color: rgb(231, 121, 31);
+}       
