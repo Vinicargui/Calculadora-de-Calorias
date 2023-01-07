@@ -1,4 +1,6 @@
 const listateclas = document.querySelectorAll('.tecla');
+const input1 = document.querySelector('#array-title');
+ input1.value = mostracalorias;
 let cont=0;
 while(cont < listateclas.length){
     listateclas[cont].onclick = mostracalorias;
